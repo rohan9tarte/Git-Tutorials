@@ -1,0 +1,17 @@
+""" n = 25"""
+number_of_gusses = 1
+print("Number of gusses is limited to only 9 times:")
+while (number_of_gusses<=9):
+    guess_number = int(input("Gusses th number :\n"))
+    if guess_number<25:
+        print("You enter less number please input greater number.\n")
+    elif guess_number>25:
+        print("You enter greater number please input smaller number.\n")
+    else:
+        print("you won")
+        print(number_of_gusses,"No. of gusses he took to finish.")
+        break
+    print(9-number_of_gusses,"No. of gusses left")
+    number_of_gusses = number_of_gusses + 1
+if (number_of_gusses>9):
+    print("Game Over")

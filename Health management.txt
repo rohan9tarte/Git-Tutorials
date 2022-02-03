@@ -1,4 +1,4 @@
-# Health management system 2
+# Health management system
 
 client_list = {1 : "Harry", 2 : "Rohan", 3 : "Hammad"}
 log_list = {1:"Exercise", 2:"Diet"}
